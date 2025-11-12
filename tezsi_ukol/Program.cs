@@ -114,7 +114,7 @@ else if (vek > 64)
         Console.WriteLine("špatnej pocet lístku");
     else
     {
-        int cena = pocet_listku * 8|0;
+        int cena = pocet_listku * 80;
         Console.WriteLine($"k platbě {cena}");
     }
 }  

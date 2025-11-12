@@ -3,7 +3,7 @@
 Console.WriteLine("AUTOMAT NA LISTKY");
 Console.WriteLine("Zádejte prosím svůj věk");
 float.TryParse(Console.ReadLine(), out float vek);
-if (vek == 0 || vek < 0)
+if (vek == 0 || vek < 0|| vek > 120)
     {
     Console.WriteLine("bohužel nejsí jíž narozenej nebo zadal sis špatny věk");
     }
